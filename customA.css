@@ -1,0 +1,128 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+li.nav-item ,a:hover{
+    color:#59AB6E!important;  
+}
+.text_size a{
+    font-size: 48px !important;
+    font-weight: 550;
+}
+.d-flex {
+    display: flex !important;
+    gap:20px;
+}
+.justify-content {
+    gap:10px;
+}
+#templatemo_nav_top * {
+    font-size: 12px !important;
+    height: 23px;
+    margin-top: 2px;
+}
+.w-100 {
+    width: 100% !important;
+}
+.col-lg-3{
+    width: 23% !important;
+    margin-left: 18px;
+}
+ul.nav.navbar-nav.d-flex.justify-content-between.mx-lg-auto {
+    width: 50%;
+    margin: 20px;
+}
+.about h1{
+    margin-top: 200px;
+}
+.about img{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+}
+.about p{
+    font-size: 18px;
+}
+.services h1{
+    font-size: 48px !important;
+    margin-top: 80px;
+}
+.services p{
+       text-decoration: center;
+       font-size: 18px;
+       font-weight: 300;
+    padding: 0px 28%;
+}
+.text_shadow {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) ;
+}
+.text_shadow:hover i{
+    color: white;
+}
+.text_shadow i{
+    font-size: 50px;
+}
+.text_shadow p{
+    margin-bottom: 40px;
+}
+.text_shadow:hover p{
+    color:#ffffff !important;
+}
+.text_shadow:hover{
+    background: #59AB6E;
+}
+.head {
+    background: #E9EEF5;
+    margin-top: 100px;
+}
+.brand h1{
+    font-size: 48px;
+    font-weight: 200;
+    margin-top: 100px !important;
+    margin-bottom: 10px;
+}
+.brand p{
+     text-decoration: center;
+     font-size: 18px;
+     font-weight: 300;
+    padding: 0px 28%;
+}
+.image_slider img{
+filter: grayscale(100%);
+transition: 0.5s;
+margin-top: 40px;
+margin-bottom: 100px;
+width: 60% !important;
+margin-left: 60px !important;
+}
+.text_last li:hover{
+    color: #59AB6E !important;
+}
+.flex-fill li,a{
+    font-size: 18px;
+}
+.last{
+    background: #1D242D;
+}
+.text_last li{
+    list-style: none;
+    font-size: 18px;
+}
+@media screen and (max-width: 768px){
+    .about h1{
+        margin-top: 100px;
+    }
+    .services p{
+        padding: 0px;
+    }
+    .brand p{
+        padding: 0px;
+    }
+    .text_shadow {
+        width: 92% !important;
+        
+        margin-top: 50px !important;
+    }
+    .text_shadow p{
+        margin-bottom: 40px !important;
+    }
+}

@@ -1,0 +1,119 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+li.nav-item ,a:hover{
+    color:#59AB6E!important;  
+}
+.d-flex {
+    display: flex !important;
+    gap:20px;
+}
+.text_font p{
+    font-size: 18px;
+}
+.text_p{
+    font-size: 18px;
+    width: 25%;
+}
+.justify-content {
+    gap:10px;
+}
+#templatemo_nav_top * {
+    font-size: 12px !important;
+    height: 23px;
+    margin-top: 2px;
+}
+.w-100 {
+    width: 100% !important;
+}
+ul.nav.navbar-nav.d-flex.justify-content-between.mx-lg-auto {
+    width: 50%;
+    margin: 20px;
+}
+.head{
+    background: #E9EEF5;
+}
+.text-image img{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border:1px solid #DFDFDF;
+    border-radius: 5px;
+    float: left;
+}
+.text-color{
+    background-color: #ffffff;
+    margin-top: 50px !important;
+    margin-bottom: 30px;
+    border:1px solid #DFDFDF;
+    border-radius: 5px;
+    float:right;
+}
+.text-size ul{
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+    width:60%;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.text-size li{
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+    width:60%;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.text-size button{
+    width: 47%;
+    height: 50px;
+    border: 1px solid #59AB6E;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.text_size a{
+    font-size: 48px !important;
+    font-weight: 550;
+}
+.image_slider {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.carousel-control-prev{
+    display: none !important;
+}
+.carousel-control-next{
+    display: none !important;
+}
+.text_carousel {
+    margin-bottom: 50px;
+    margin-top: 30px !important;
+}
+.text_last li:hover{
+    color: #59AB6E !important;
+}
+.flex-fill li,a{
+    font-size: 18px;
+}
+.last{
+    background: #1D242D;
+}
+.text_last li{
+    list-style: none !important;
+    font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+    .image_slider{
+        width: 40%;
+        margin-left: 130px !important;
+    }
+    .text_p{
+        width: 35%;
+    }
+}
